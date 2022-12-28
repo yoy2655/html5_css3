@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<form name="f" method="get">
+<form name="f" method="get" action="a.jsp">
   id: <input type="text" size="15" value=""><br>
   pw: <input type="password" size="15" value="">
   <input type="submit" value="완료">

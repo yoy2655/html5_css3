@@ -8,6 +8,10 @@ p{
 <html lang="en">
 <head>
  <title>CSS3 실습 예제</title>
+  <!--css만들때 우선순위는 
+    2. style속성
+    1. <style></style>태그안에 작성
+    3. 스타일 시트 순서다.-->
  <link type="text/css" rel="stylesheet" href="me2.css">
  <style>
     p{color:white;font-size:10px;}

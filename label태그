@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<!--
+레이블 태그로 감싸게 되면
+전체적으로 드래그(클릭)를 해도 text에 커서가 생겨서 입력할 수 있지만
+레이블 태그로 감싸지 않으면
+커서가 안생긴다
+
+레이블 태그는 캡션과 요소를 묶는 태그이다.
+-->
+<label>id: <input type="text"></label><br>
+<label for="pa">비번
+    pw: <input type="password"></label><br>
+
+    <label>짜장면 <input type="radio" name="ja"></label><br>
+    <!--------------------------------------------->
+<label for="china">짜장면</label>
+<input type="radio" name="ja" id="china"><br>
+<!--------------------------------------------->
+<label>
+  <input type="radio" name="ja">짜장면<img src="C:/Users/soldesk/Desktop/A221122/리락쿠마2.jpg">
+</label>
+</body>
+</html>
+</body>
+</html>

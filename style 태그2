@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+ p{color:green}
+ </style>
+</head>
+<body>
+  <p>사람에게 도움을 주는 책</p>
+  <p style="color: orangered;">열심히</p>
+  <p style="color: mediumvioletred; font-size:30px">사람들에게</p>도움이 되고 싶습니다.
+</body>
+</html>
+</body>
+</html>

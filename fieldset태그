@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<fieldset>
+  <legend>개인 정보</legend>
+    이름: <input type="text"><br>
+    메일: <input type="text"><br>
+    </fieldset>
+</body>
+</html>

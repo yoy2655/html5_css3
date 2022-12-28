@@ -10,7 +10,7 @@
           점선 : dotted*/
          /*border-color: red;*/
 
-        border{5px solid red}/*???*/
+        border : 5px solid red
     }
 </style>
 </head>

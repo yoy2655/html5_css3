@@ -1,8 +1,21 @@
+<!--(me.css파일)-------------->
+body{
+    background-color:palevioletred;
+    color:darkgreen;
+}
+<!--------------------------->
 <!DOCTYPE html>
 <html lang="en">
 <head>
  <title>CSS3 실습 예제</title>
+ <!--스타일 시트를 연결하는방법
+    1. link태그
+    2. @import-->
+
  <link type="text/css" rel="stylesheet" href="me.css">
+ <style>
+    @import url(me.css);
+ </style>
 </head>
 <body>
     <p>사람에게 도움을 주는 책</p>

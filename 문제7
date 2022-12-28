@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+
+  <!--1. 다음 그림을 보고 웹 페이지를 작성해라-->
+  <h2>성적</h2>
+  <hr>
+  <table border="1">
+<caption>학생 성적 표</caption>
+<tr>
+  <th>이름</th><th>영어</th><th>수학</th>
+</tr>
+<tr>
+  <td>홍길동</td><td>100</td><td>95</td>
+</tr>
+<tr>
+  <td>이길동</td><td>90</td><td>80</td>
+</tr>
+<tr>
+  <td>박길동</td><td>90</td><td>100</td>
+</tr>
+<tr>
+  <th>평균</td><th>93.3</td><th>91.6</td>
+</tr>
+  </table>
+  <!--2. 다음 그림을 보고 웹 페이지를 작성해라-->
+  <h2>성적</h2>
+  <hr>
+  <input type="button" value="1"><input type="button" value="2"><input type="button" value="3"><br>
+  <input type="button" value="4"><input type="button" value="5"><input type="button" value="6">
+
+  <!--3. 다음 그림을 보고 웹 페이지를 작성해라-->
+  <h2>로그인 폼</h2>
+  <hr>
+  <fieldset>
+  <legend>Login</legend>
+    Username <input type="text" size="20"> Password <input type="password" size="20">
+  </fieldset>
+
+  <!--4. 다음 그림을 보고 웹 페이지를 작성해라-->
+  <h2>회원 정보를 입력해라.</h2>
+  <hr>
+  <fieldset>
+    <legend>회원정보</legend>
+      이메일: <input type="text" size="20"><br>
+      홈페이지: <input type="text" size="20"><br>
+      전화번호: <input type="text" size="20">
+    </fieldset>
+    연락처: &phone; 010-1234-5678
+</body>
+</html>

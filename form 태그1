@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<form name="f" method="get">
+  id: <input type="text" size="15" value=""><br>
+  pw: <input type="password" size="15" value="">
+  <input type="submit" value="완료">
+</form>
+</body>
+</html>

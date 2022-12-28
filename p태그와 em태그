@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <!--부모-자식 관계가 있다
+p(부모)안에 em(자식)이 들어있다 상속받고 있다
+범위안에 있으면 다 자식태그임-->
+</head>
+<body>
+    <p style="color:green">사람에게 도움을 주는 책
+    <em style='font-size: 30px; color:red'>열심히</em> 사람들에게 도움이 되고 싶습니다.</p>
+</body>
+</html>
+</body>
+</html>

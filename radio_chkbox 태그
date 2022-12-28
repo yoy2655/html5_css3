@@ -11,5 +11,12 @@
 <input type="radio" name="sub" value="c">C<br>
 <input type="radio" name="sub" value="python">파이썬<br>
 </fieldset>
+
+<fieldset>
+    <legend>복수선택</legend>
+    <input type="checkbox" name="sub" value="java">자바<br>
+    <input type="checkbox" name="sub1" value="c">C<br>
+    <input type="checkbox" name="sub2" value="python">파이썬<br>
+    </fieldset>
 </body>
 </html>

@@ -7,8 +7,11 @@
 <body>
 <form name="f" method="get" action="a.jsp">
   id: <input type="text" size="15" value=""><br>
-  pw: <input type="password" size="15" value="">
-  <input type="submit" value="완료">
+  pw: <input type="password" size="15" value=""><br>
+  자소서: <textarea cols="20" rows="5">
+    여기에 작성하시오
+    </textarea>
+    <input type="submit" value="완료">
 </form>
 </body>
 </html>

@@ -18,5 +18,7 @@
     <input type="checkbox" name="sub1" value="c">C<br>
     <input type="checkbox" name="sub2" value="python">파이썬<br>
     </fieldset>
+
+    <input type="number" value="0" min="0" max="10" step="2">개
 </body>
 </html>

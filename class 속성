@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    .bb{background-color: aliceblue;}    
+    .f{color:red;}
+ </style>
+</head>
+<body class="bb">
+    <h2>셀렉터</h2>
+    <div>
+        <div>12월 <strong>학습내용</strong></div>
+        <ul id="list">
+            <li><span>HTML5></span></li>
+            <li><em>CSS</em></li>
+            <li>Javascript</li>
+        </ul>
+        <div class="f">과락은 F!</div>
+    </div>
+ </body>
+</html>
+</body>
+</html>

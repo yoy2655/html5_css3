@@ -7,14 +7,13 @@
     span{color:green;font-size:30px;}
   </style>
 </head>
-<body>
-<h3>CSS</h3>
-<p>나는 <span>프로그래밍</span>에 흥미있다.</p>
+<body style="background-color: blueviolet;">
+<h3 style="color:aqua">CSS</h3>
+<p>나는 <span style="color:green;font-size:30px">프로그래밍</span>에 흥미있다.</p>
 </body>
 </html>
 </body>
 </html>
-
 <!--css 만들 때 방법
 1. <style></style>태그에 작성
 2. style속성에 작성

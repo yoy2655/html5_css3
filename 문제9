@@ -1,9 +1,12 @@
+<!--(style.css)-------------->
+#list{color:blue;text-align:center;}
+<!--------------------------->
 <!DOCTYPE html>
 <html lang="en">
 <head>
  <title>CSS3 실습 예제</title>
  <style>
-.p1{color:blue;text-align:center;}
+#list{color:blue;text-align:center;}
  <link type-"text/css" rel="stylesheet" href=style.css">
  @import url(style.css);
 </style>
@@ -39,9 +42,9 @@
 선두께 <input type="text" size="7" value=""> 선색 <input type="color"><br>
 투명도(0~100): <input type="range">
 </fieldset><br>
-<body class="p1">
+<body>
 <!--3.	“test”를 body부분에 넣고 글자색을 blue, 중앙정렬 시킨다.-->
-test
+<div id="list">test</div>
 <!--4.1) 스타일 시트를 style.css에 저장하고 실행-->
 <!--4.2) @import 를 이용하여 실행-->
 </body>

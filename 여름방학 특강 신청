@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+  <h2>여름방학 특강 신청</h2>
+  <br>
+  <fieldset>
+    <legend>수강과목</legend>
+    <ul>
+        <li>영어회화(초급) <input type="text" size="25" value="오전 9:00~11:00" readonly></li></ul>
+  </fieldset>
+  <fieldset>
+    <legend>신청자</legend>
+    <ul>
+        <li>이름 <input type="text" value=""></li>
+        <li>학번 <input type="text" placeholder="하이픈없이 입력" ></li>
+        <li>학과 
+      <select>
+      <option>컴퓨터공학과</option>
+    </select>
+  </li>
+  </ul>
+  </fieldset>
+  <fieldselt>
+    <input type="button" value="신청하기">
+    <input type="button" value="다시쓰기">
+  </fieldselt>
+</body>
+</html>

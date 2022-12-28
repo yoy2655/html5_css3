@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<select>
+  <option>자바</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+</select>
+</body>
+</html>

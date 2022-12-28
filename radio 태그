@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<fieldset>
+<legend>하나만 선택</legend>
+<input type="radio" name="sub" value="java">자바
+<input type="radio" name="sub" value="c">C
+<input type="radio" name="sub" value="python">파이썬
+</fieldset>
+</body>
+</html>

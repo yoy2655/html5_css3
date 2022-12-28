@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>컴퓨터 기술 소개</title> 
+</head>
+
+<body>
+<table border="1">
+<caption><h1>교재비 동의서</h1></caption>
+<tr>
+  <th>성명</th><td><input type="text" size="20" value=""></td>
+  <th>생년월일</th><td><input type="text" size="20" value=""></td>
+</tr>
+<tr>
+  <th>개강일자</th><td><input type="date" size="20" value=""></td>
+  <th>담당자</th><td><input type="text" size="20" value="" placeholder="꼭 작성"></td>
+</tr>
+<tr>
+  <th>연락처</th><td colspan="3"><input type="text" size="20" value=""></td>
+</tr>
+<tr>
+  <th>수강과목</th><td colspan="3"><input type="text" size="20" value=""></td>
+</tr>
+<tr>
+  <td colspan="4"><textarea cols="70"rows="10">(주)솔데스크에서 실시하는...</textarea></td>
+</tr>
+</table>
+
+</body>
+</html>

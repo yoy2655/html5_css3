@@ -6,6 +6,25 @@
     .bb{background-color: aliceblue;}    
     .f{color:red;}
     #list{background-color: green;}
+
+
+    div>strong{
+        background:brown;
+    }
+
+    #list span{ 
+        color: red;
+    }
+
+    ul em{
+        color:white;
+    }
+    h2,li{
+        color:red;
+    }
+    h2::first-letter{
+        color:green;
+    }
  </style>
 </head>
 <body class="bb">
@@ -13,7 +32,7 @@
     <div>
         <div>12월 <strong>학습내용</strong></div>
         <ul id="list">
-            <li><span>HTML5></span></li>
+            <li><span>HTML5<span></li>
             <li><em>CSS</em></li>
             <li>Javascript</li>
         </ul>

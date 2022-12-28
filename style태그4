@@ -1,0 +1,23 @@
+<!--(me2.css)----------->
+p{
+    background-color: black;
+}
+
+<!---------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <link type="text/css" rel="stylesheet" href="me2.css">
+ <style>
+    p{color:white;font-size:10px;}
+ </style>
+</head>
+<body>
+    <p>하이!!!!!!</p>
+    <p style="font-size: 30px">안녕하세요</p>
+  
+</body>
+</html>
+</body>
+</html>

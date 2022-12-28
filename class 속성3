@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    h2{text-align: right;}
+    span{text-decoration: line-through;}
+    strong{text-decoration: overline;}
+    .p1{
+        text-indent: 5em;
+        text-align: center;
+    }
+
+</style>
+
+</head>
+<body>
+    <h2>연합뉴스 기사</h2>
+   <p class="p1"> (서울=연합뉴스) 김지헌 기자 = 군 당국이 이틀째 정체불명의 항적을 북한 무인기로 추정하고 
+    전투기를 출격시켰지만, 무인기가 아닌 것으로 확인됐다.
+    전날 새 떼에 이어 이번엔 <span>'풍선'</span>을 무인기로 오인한 것이다.</p>
+    <p class="p2">28일 군에 따르면 이날 새벽 정체를 알 수 없는 항적이 레이더에 일부 식별되어 
+    비상대기 중이던 <strong>공군 전투기</strong>가 긴급 출격해 인천과 경기 북부 상공 등으로 전개했다.</p>
+<a href="http://www.naver.com" style="text-decoration : none">네이버</a>
+</body>
+</html>
+</body>
+</html>

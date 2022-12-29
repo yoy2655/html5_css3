@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+/*
+1. 블록요소, 인라인 요소 차이
+
+<블록요소>
+-div, ul, ol, li, p, table....
+-크기 값을 지정할 수 있음
+-한줄에 한개만 배치
+-상하좌우마진 모두 가짐
+-기본 너비값은 100%
+
+<인라인요소>
+-span, a, storng, textarea
+-크기값을 지정못함
+-한줄에 여러개 배치
+-상하마진 못가짐(좌우마진은 갖는다)
+-기본 너비값은 컨텐츠의 너비값
+*/
+span{
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+div{
+    border: 5px solid deeppink;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+   <span>인라인 구성요소11111111</span>
+   <span>인라인 구성요소222222222</span>
+   <span>인라인 구성요소33333333333</span>
+
+   <div>블록 구성요소44444444444444444</div>
+</body>
+</html>
+</body>
+</html>

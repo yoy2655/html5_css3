@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    body{
+        background-color: silver;
+    }
+    p{
+        background-color: aliceblue;
+        width:300px;
+        padding 20px;
+    }
+    #p1{
+        border-radius:5px;
+    }
+    #p2{
+        border-radius: 5px 5px 5px 5px;
+    }
+    #p3{
+        border-radius: 5px;
+    }
+    #p4{
+        border-radius: 5px; 
+        border-style: dotted;
+        border-color:silver;
+    }
+</style>
+</head>
+<body>
+   <p id="p1">둥근 모서리</p>
+   <p id="p2">둥근 모서리</p>
+   <p id="p3">둥근 모서리</p>
+   <p id="p4">둥근 모서리</p>
+   <p id="p5">둥근 모서리</p>
+</body>
+</html>
+</body>
+</html>

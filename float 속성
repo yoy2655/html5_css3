@@ -4,7 +4,7 @@
  <title>CSS3 실습 예제</title>
  <style>
     #a{
-        float: right;
+        float: right; /*부유 속성: 떠있다*/
         border:1px dotted gray;
         width: 100px;
         padding:15px;

@@ -11,9 +11,13 @@
 </head>
 <body>
    
-    인라인<div style="display: inline"> 인라인입니다<br><br>
-    인라인박스<div style="display: inline-block;">인라인박스입니다<br><br>
-    박스 <div style="display: block;"> <span>블럭</span>입니다.<br><br>
+    <div style="display: inline"> 
+        인라인입니다</div><br><br><br><br>
+
+        
+        <div style="display: inline-block;">인라인입니다2</div><br><br><br><br>
+        <div style="display: block;"> 인라인입니다3</div><br><br><br><br>
+            
  </div>
     
 </body>

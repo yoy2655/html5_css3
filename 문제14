@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+#a{
+    font-size: 30px;
+    font-weight: bold;
+    color:green;
+    border: 1px solid gray;
+    margin:2px;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+   <h1 id="a">세계 3대 미항</h1>
+</body>
+</html>
+</body>
+</html>

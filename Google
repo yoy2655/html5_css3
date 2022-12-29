@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
  <title>CSS3 실습 예제</title>
+ <style>
+    div{
+        display:inline-block;
+    }
+ </style>
 </head>
 <body style="font-size:50px;">
 <strong>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+span{
+    display: block;
+    width:100px;
+    height:60px;
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+   <div>
+    <span>block span</span>과 <span>block span</span>입니다
+   </div>
+</body>
+</html>
+</body>
+</html>

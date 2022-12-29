@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+#fix{
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    width:100px;
+    background-color: aquamarine;
+}
+</style>
+</head>
+<body>
+   <img src="C:/Users/soldesk/Desktop/A221122/리락쿠마1.jpg"width="50"height="50">
+   <div id="fix">리락쿠마 등장!!!!</div>
+</body>
+</html>
+</body>
+</html>

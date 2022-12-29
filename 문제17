@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    .a2{
+background-color: lightblue;    
+
+    }
+p.a{
+        color:deeppink;
+}
+#a222{
+    color:deeppink;
+    text-align: right;
+}
+
+#b{
+    background-color: yellow;
+    color:black;
+    font-family: Lucida Console;
+    font-size: 15px;
+}
+#b2{
+    font-size:1.5em;
+    text-decoration: underline;
+}
+
+
+#c{
+    color: green;
+}
+#c1{
+    background-color: aliceblue;
+    text-align: center;
+}
+.c2{
+    color: blue;
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+#c3{
+    font-style:italic;
+}
+p > #g{
+    color: green;
+}
+#r{
+    color: red;
+    font-weight: bold;
+}
+
+
+</style>
+</head>
+<body>
+<!--1.	다음의 웹 페이지를 작성해라.(배경색은 lightblue, 하이라이트 되어있는 부분
+    (웹 개발, 서버 개발 일을)은 aquamarine, 글자색은 deeppink로 설정)-->
+<div class="a2">
+<h2 id="a222">홍길동</h2>
+<hr>
+<p class="a">저는 개발자 홍길동입니다. 음악을 들으면서 책읽기를<br>
+좋아합니다. 웹 개발과 서버 개발 일을 무척 좋아합니<br>
+다.</p>
+</div>
+
+<!--2.	다음 문장과 같이 웹 페이지를 작성해라.
+(“저는 이보다 1.5배 큽니다” 이 문장은 앞 문장보다 1.5배 폰트 사이즈 키우기)-->
+<h2>텍스트, 폰트</h2>
+<hr>
+<p id="b">yellow 바탕색에 Black색의 "Lucida Console" 폰트로<br>
+15px 크기이고 <span id="b2">저는 이보다 1.5배 큽니다</span></p>
+
+<!--3.	다음과 같이 웹 페이지를 작성해라.
+(전체 배경색은 aliceblue, 선택자를 id, class, 자손, 자식 셀렉터를 다 활용)-->
+<h2 id="c">제목</h2>
+<hr>
+<div id="c1"><span class="c2">center</span>
+ <p><span id="c3">네 힘으로</span><span id="g">안될 일에 눈을 감고 </span>
+    <span id="r">지나치게 앞 일에</span><br>
+    <span id="g">매여</span><span id="r">지금 가진 것을</span> <span id="g">잃지는 마라.</span></p></div>
+
+    <!--4.	다음과 같은 표를 작성해라.-->
+    <h2>색 이름과 코드</h2>
+    <hr>
+    <table border=""1">
+    <tr>
+        <th>이름</th>
+        <th>코드</th>
+        <th>색</th>
+        <th>이름</th>
+        <th>코드</th>
+        <th>색</th>
+    </tr>
+    <tr>
+        <td>Brown</td>
+        <td>#A52A2A</td>
+        <td><input type="color" value="#A52A2A"></td>
+        <td>DeepSkyBlue</td>
+        <td>#00BFFF</td>
+        <td><input type="color" value="#00BFFF"></td>
+    </tr>
+    <tr>
+        <td>Blueviolet</td>
+        <td>#BA2BE2</td>
+        <td><input type="color" value="#BA2BE2"></td>
+        <td>Gold</td>
+        <td>#FFD700</td>
+        <td><input type="color" value="#FFD700"></td>
+    </tr>
+    <tr>
+        <td>DarkOrange</td>
+        <td>#FF8C00</td>
+        <td><input type="color" value="#FF8C00"></td>
+        <td>OliveDrab</td>
+        <td>#688E23</td>
+        <td><input type="color" value="#688E23"></td>
+    </tr>
+    </table>
+
+    <!--5.	다음과 같은 웹 페이지 작성해라.(목차 부분은 링크로 만들고 본문에 앵커를 만들어 연결해라. 
+        앵커를 클릭하면 웹 페이지를 새 창이나 탭에 출력하도록 링크를 작성해라.)-->
+        <fieldset>
+            <legend>목차</legend>
+            <a href="#1">1.개요</a><br>
+            <a href="#2">2.본문</a><br>
+        </fieldset>
+
+        <h2 id="a1"><a href="https://n.news.naver.com/mnews/article/001/0013670897?sid=103">1.개요</a></h2>
+        <p> 제주에서는 계묘년 첫 해돋이를 구름 사이로 볼 수 있을 전망이다.
+            29일 제주지방기상청에 따르면 제주에서는 오는 31일 맑은 날씨를 보여 올해 마지막 해넘이를 볼 수 있을 것으로 예상된다.
+            또한 내년 1월 1일 새해 첫 해돋이는 구름이 많은 가운데 일부 지역에서 구름 사이로 간간이 볼 수 있을 전망이다.
+            다만 기압계 상황에 따라 변동성이 있어 자세한 날씨 전망은 최신 기상정보를 참고해달라고 기상청은 전했다.
+            이와 함께 기상청은 해넘이·해돋이 관련 기상기후 자료를 분석한 결과를 발표했다.
+            분석 결과 해넘이 명소인 제주도 서부 고산에서 한해 마지막 해넘이를 볼 수 있었던 확률은 9.6%, 해돋이 명소인 제주도 동부 성산에서 새해 첫 해돋이를 볼 수 있었던 확률은 30.7%로 각각 나타났다.
+            고산의 지난 34년간 12월 31일 오후 6시 하늘 상태를 분석한 결과 맑았던 해는 1992년, 1999년, 2013년 등 3번에 불과했다.
+        </p>
+        <h2 id="a2"><a href="http://www.daum.net">2.본문</a></h2>
+        <p>찬 바람은 잦아들었지마 공기는 여전히 차갑습니다.
+            오늘 서울의 낮 최고 기온 0도에 머물겠는데요.
+            모레 낮부터 기온이 올라 평년 이맘 때 기온을 회복하겠습니다.
+            현재 서쪽지역엔 구름이 다소 지나고 있습니다.
+            오후에도 전국에 가끔 구름이 많겠습니다.
+            밤 늦게부터 내일 새벽까지 경기 남부와 충청 북부지역엔 1센티미터 안팎의 눈이 조금 내리겠고 서울을 비롯한 그 밖의 중부와 경북에도 눈이 날리는 곳이 있겠습니다.
+            영동과 영남 해안엔 건조특보가 계속되고 있어 불이 나지 않도록 조심해야 합니다.
+            낮 기온은 서울 0도 광주 5도 부산 7도로 어제와 비슷하거나 조금 낮겠습니다.
+            바다의 물결은 동해 먼 바다에서 3미터로 높게 일겠습니다.
+            기상정보였습니다.
+        </p>
+</body>
+</html>
+</body>
+</html>

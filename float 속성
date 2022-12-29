@@ -4,10 +4,13 @@
  <title>CSS3 실습 예제</title>
  <style>
     #a{
-        float: right; /*부유 속성: 떠있다*/
+        
+        float: right; /*부유 속성(): 떠있다) 지정하면 display는 무시된다!!!!*/
+        display:inline;
         border:1px dotted gray;
         width: 100px;
         padding:15px;
+        margin:20px
     }
 </style>
 </head>

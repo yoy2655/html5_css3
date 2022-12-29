@@ -4,13 +4,18 @@
  <title>CSS3 실습 예제</title>
  <style>
 img{
-    float:left;
+    /*float 주면 display 작업 못하고
+    clear주면 해제되서 float안먹는다.*/
+    float:right;
+}
+#a{
+    clear:both;
 }
 </style>
 </head>
 <body>
     <img src="C:/Users/soldesk/Desktop/A221122/리락쿠마1.jpg" width="50px" height="50px">
-    연말연시에는 술자리가 유난히 많다. 
+   <<p id="a"> 연말연시에는 술자리가 유난히 많다. </p> 
 
     자연스레 기름진 음식 섭취도 늘어난다. 
     일부에서는 햄버거나 피자같은 음식이 숙취 방지에 도움이 된다고 생각하지만, 

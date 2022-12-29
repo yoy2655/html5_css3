@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+/*
+블록박스 <div, p, h1>
+(display:block)
+- 항상 새 라인에서 시작함
+- 블록 박스 안에만 배치
+- 옆에 다른 요소 배치 불가능
+- width, height 크기 조절 가능
+- padding, margin 조절 가능
+
+인라인박스 <a, span, textarea, input...>
+(display:inline)
+- 새 라인에서 시작 못함(라인 안에 있음)
+- 모든 박스 안 배치 가능
+- 옆에 다른 요소 배치 가능
+- width, height 크기 조절 불가능
+- margin-top, margin-bottom 조절 불가능
+
+인라인블록박스
+(display:inline-block)
+- 새 라인에서 시작 못함 (인라인 특성)
+- 모든 박스 안 배치 가능(인라인 특성)
+- 옆에 다른 요소 배치 가능 (인라인 특성)
+- width, height 크기 조절 가능(블록 특성)
+- padding,margin 조절 가능(블록 특성)
+*/
+</style>
+</head>
+<body>
+   
+</body>
+</html>
+</body>
+</html>

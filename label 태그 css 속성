@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    input[type=text]{
+        color:red;
+    }
+    input:hover, textarea:hover{
+        background-color:pink;
+    }
+    label{
+        display:block;
+        padding:10px;
+    }
+    label span{
+        float: left;
+        width:80px;
+        padding 10px;
+    }
+    input[type=text]:focus{/*커서댔을때*/
+        font-size:120%
+    }
+
+</style>
+</head>
+<body>
+    <form>
+   <label><span>Name</span><input type="text" placeholder="홍길동"><br></label>
+   <label><span>Email</span><input type="email" placeholder="홍길동@naver.com"><br></label>
+   <label><span>Msg</span><textarea placeholder="메시지를 남겨줘"></textarea>
+   <label><span></span><input type="submit" placeholder="제출"><br></label>
+   </label>
+</form>
+</body>
+</html>
+</body>
+</html>
+

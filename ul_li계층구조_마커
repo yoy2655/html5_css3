@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+ul{
+    background-color: aquamarine;
+    padding: 10px 10px 10px 30px;   /*padding이나 margin 줄때 시계방향*/
+    list-style-position: inside;
+    list-style-type: circle;
+}
+ul li{/*ul의 자손 li*/
+    background-color: greenyellow;
+    margin-bottom: 5px;
+}
+</style>
+</head>
+<body>
+   <ul>
+    <li>아메리카노</li>
+    <li>라떼</li>
+    <li>카푸치노</li>
+   </ul>
+</body>
+</html>
+</body>
+</html>

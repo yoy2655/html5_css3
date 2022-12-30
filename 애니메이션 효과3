@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+span{
+    transition:font-size 5s;
+}
+span:hover{
+    font-size:500%;
+}
+</style>
+</head>
+<body>
+ <p><span>성공!!!</span></p>  
+</body>
+</html>
+</body>
+</html>

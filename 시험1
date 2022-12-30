@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>솔데스크</title>
+ <style>
+div{
+    display:inline-block;
+}
+#aa{
+    float:left;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+#bb{
+    float:left;
+    margin-right:150px;
+}
+table{
+    border:0px dashed gray;
+    border-collapse:collapse;
+}
+td{
+    border:1px dashed gray;
+    cursor:pointer;
+    width:600px;
+height:30px;
+}
+caption{
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.a{
+    margin-top: 80px;
+    display: inline-block;
+}
+footer{
+    margin-top: 80px;
+    text-align: left;
+    background-color: black;
+    color:gray;
+    width:100%;
+    height:180px;
+    clear:both;
+    padding-top: 10px;
+    padding-left: 400px;
+}
+#m{
+    color:white;
+    padding-right: 10px;
+}
+#ee{
+    float:left;
+}
+#gg{
+    float:right;
+    color:tomato;
+}
+</style>
+</head>
+<body>
+    <form>
+   <center><img src="https://soldesklms.com/data/menu/LOGO_EA3cuQ85IOsoFkGwzPqB1607485797.jpg"></center>
+   <hr>
+   <center>
+
+    <a href="https://soldesklms.com/_module/poll/login.php"> <img src="https://soldesklms.com/_common/images/single_pg_01.png"></a>
+    <a href="https://soldesklms.com/_module/include/_ncs_login.php"> <img src="https://soldesklms.com/_common/images/single_pg_02.png"></a><br>
+    <a href="https://soldesklms.com/_module/include/_test_login.php"> <img src="https://soldesklms.com/_common/images/single_pg_03.png"></a>
+    <a href="https://soldesklms.com/p/?j=2&rPath=VmtWb2FrOVdRbEpRVkRBOStN"> <img src="https://soldesklms.com/_common/images/single_pg_13.png"></a><br>
+    <a href="https://soldesklms.com/p/?j=1&rPath=VmtWb2FrOVdRbEpRVkRBOStN"> <img src="https://soldesklms.com/_common/images/single_pg_10.png"></a> 
+    <a href="https://soldesklms.com/p/?j=3"> <img src="https://soldesklms.com/_common/images/single_pg_14.png"></a><br>
+
+    <div class="a">
+    <div id="aa">
+    <table>
+        <caption>공지사항</caption>
+        <tr><td sytle="cursor:pointer"><span id="ee">사전설명회(OT) 훈련생자료</span><span id="gg">22.12.23</span></td></tr>
+        <tr><td sytle="cursor:pointer"><span id="ee">사전설명회(OT) 훈련생자료</span><span id="gg">22.12.23</span></td></tr>
+        <tr><td sytle="cursor:pointer"><span id="ee">사전설명회(OT) 훈련생자료</span><span id="gg">22.11.18</span></td></tr>
+        <tr><td sytle="cursor:pointer"><span id="ee">사전설명회(OT) 훈련생자료</span><span id="gg">22.11.18</span></td></tr>
+        <tr><td sytle="cursor:pointer"><span id="ee">사전설명회(OT) 훈련생자료</span><span id="gg">22-08-23</span></td></tr>
+</table></div>
+    <div id="bb">
+    <table>
+    <caption>건의사항</caption>
+    <tr><td sytle="cursor:pointer"><span id="ee">비밀글 입니다.</span><span id="gg">21.11.02</span></td></tr>
+    <tr><td sytle="cursor:pointer"><span id="ee">비밀글 입니다.</span><span id="gg">21.09.10</span></td></tr>
+    <tr><td sytle="cursor:pointer"><span id="ee">비밀글 입니다.</span><span id="gg">21.03.15</span></td></tr>
+    <tr><td sytle="cursor:pointer"><span id="ee">비밀글 입니다.</span><span id="gg">21.03.09</span></td></tr>
+    <tr><td sytle="cursor:pointer"><span id="ee">비밀글 입니다.</span><span id="gg">21.03.09</span></td></tr>
+</table></div>
+</div>
+
+<footer>
+
+<span id="m" style="cursor:pointer">개인정보보호정책</span><span id="m" style="cursor:pointer">메일주소무단수집거부</span><br>
+
+<hr>
+<p><b><small>회사명 : 솔데스크 대표자 : 강재민 Tel : 02)6901-7000 Fax : 02)725-7711 개인정보보호책임자 : 전형후 jws7503@naver.com Tel : 02)6901-7038<br> 
+사업자번호 : 101-86-50485 통신판매업신고번호 : 제2009-서울종로-1141호<br>
+031-90 서울특별시 종로구 종로12길 15 5층(관철동 13-13)<br>
+copyright &copy; 솔데스크. All Rights Reserved.<br></small></b></p>
+</footer>
+</form>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    #menu{
+        float: right;
+    }
+    #m{
+        padding-right: 5px;
+        
+    }
+    #m:hover{
+        text-decoration: underline;
+    }
+    #lo{
+        color:aliceblue;
+        background-color: blue;
+        cursor:pointer;
+        border-radius: 10px;
+        border :1px, solid, blue;
+    }
+
+#title{
+    text-align: center;
+    margin-top:100px;
+}
+    #g, #o, #o1, #g1, #l, #e{
+        display:inline;
+        font-size:100px;
+        font-weight: bold;
+    }
+    #bb{
+        text-align: center;
+    }
+    #ss{
+        width:500px;
+        height:25px;
+        border-radius: 10px;
+        margin: 20px auto;
+        box-shadow: 2px 2px 6px gray;
+    }
+    #ss.hover{
+        box-shadow: 10px 10px 14px gray;
+    }
+    #l1{
+        padding:10px;
+        text-align: center;
+        background-color: whitesmoke;
+        color:gray;
+        border: 0px solid whitesmoke;
+        border-radius :5px;
+    } 
+    #l1:hover{
+        border: 1px solid gray;
+        border-radius :5px;
+    }
+    #ll1{
+        padding:10px;
+        text-align: center;
+        background-color: whitesmoke;
+        color:gray;
+        border: 0px solid whitesmoke;
+        border-radius :5px;
+    }
+    #ll1:hover{
+        border: 1px solid gray;
+        border-radius :5px;
+    }
+    body{
+        text-align: center;
+    }
+ </style>
+</head>
+<body>
+<div id="menu">
+    <span id="m" style="cursor: pointer">Gmail</span>
+    <span id="m" style="cursor: pointer">이미지</span>
+    <input id="lo" type="button" value="로그인">
+    </div>
+    
+    <br>
+    <div id="title">
+        <label>
+    <div id="g" style="color:#4285f4">G</div>
+    <div id="o" style="color:#eb4538">o</div>
+    <div id="o1" style="color:#ffd603">o</div>
+    <div id="g1" style="color:#4386f4">g</div>
+    <div id="l" style="color:#32d173">l</div>
+    <div id="e" style="color:#f75b61">e</div>
+</label>
+</div>
+
+<br>
+<div id="bb">
+<input id="ss" type="text">
+<br>
+<span class="b">
+<input type="submit" id="l1" value="Google검색">
+<input type="submit" id="ll1" value="I'm feeling Lucky">
+</span>
+</div>
+</body>
+</html>
+</body>
+</html>
+

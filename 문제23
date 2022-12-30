@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+
+
+div{
+    width:400px;
+    height:50px;
+    border:1px solid gray;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+span{
+    padding:5px;
+}
+#red{
+background-color: red;
+float:left;
+    width:40px;
+    height:40px;
+}
+#yellow{
+    background-color: yellow;
+    float:left;
+    width:40px;
+    height:40px;
+}
+#green{
+    background-color: greenyellow;
+    float:left;
+    width:40px;
+    height:40px;
+}
+#blue{
+    background-color: aquamarine;
+    float:left;
+    width:40px;
+    height:40px;
+    clear:both;
+}
+#aliceblue{
+    background-color: aliceblue;
+    float:right;
+    width:40px;
+    height:40px;
+}
+</style>
+</head>
+<body>
+   <div>
+    <span id="red">1</span>
+    <span id="yellow">2</span>
+    <span id="green">3</span>
+    <span id="aliceblue">4</span>
+    <span id="blue">5</span>
+   </div>
+</body>
+</html>
+</body>
+</html>

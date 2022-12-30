@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+.a{
+    text-align:center;
+}
+body{
+    background-color: darksalmon;
+}
+#aa{
+    font-size: small;
+    color:blue;
+    padding:0;
+    margin-top:25px;
+}
+#bb{
+    color: red;
+    font-size:30px;
+    padding:0;
+    margin-top:25px;
+}
+#cc{
+    background-color: yellow;
+    color:blue;
+    padding:0;
+    margin-top:25px;
+}
+li a{
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: underline;
+    color: purple;
+}
+</style>
+</head>
+<body>
+   <!--1.	다음의 웹 페이지를 작성해라.
+(배경색은 darksalmon, “css”의 폰트사이즈는 2em, 셀렉터들을 최대한 사용해서 코드작성-->
+<h2 class="a">셀렉터</h2>
+<hr>
+<div id="aa">CSS</div><div id="bb">경고!!</div><div id="cc">폭염주의보</div>
+<!--2.	밑줄 없는 링크를 만들고 마우스가 올라가면 밑줄과 purple색으로 바뀌도록 html 페이지를 작성해라.-->
+<h2>링크 꾸미기</h2>
+<p>불릿색은 pink색에 밑줄 없는 링크, 
+    마우스를 올리면 밑줄과 불릿 violet 색으로 변경
+</p>
+<hr>
+<ul>
+<li><a href="http://www.naver.com">네이버</a></li>
+<li><a href="http://www.google.com">구글</a></li>
+</ul>
+</body>
+</html>
+
+</body>
+</html>
+</body>
+</html>

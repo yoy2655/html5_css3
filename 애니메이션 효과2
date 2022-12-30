@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+@keyframes a{
+    0%{color:aqua;}
+    30%{color:green;}
+    100%{color:red;}
+}
+h3{
+    animation-name:a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+</style>
+</head>
+<body>
+   <h3>합격!!!!!!!</h3>
+   <p>글자가 5초동안 500%에서 100%로 바뀐다
+        무한반복된다
+   </p>
+</body>
+</html>
+</body>
+</html>

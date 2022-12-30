@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+th{
+    height: 40px;
+    width: 100px;
+}
+td{
+    height: 30px;
+    width: 100px;
+}
+table{
+    border: 1px solid blue;
+    border-collapse: collapse;/*겹치는 부분이 없어진다*/
+}
+th,td{
+    border:1px dotted tomato;
+}
+tfoot th{
+    height: 30px;
+}
+tr:hover{
+    background-color: aliceblue;
+}
+tbody tr:nth-child(odd){    /*nth-child(가상테이블)에 odd행(홀수행)에 css style을 적용시킨다*/
+    background-color: palegreen;
+}
+tbody tr{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr> <th>이름</th> <th>HTML</th> <th>CSS</th> </tr>
+        </thead>
+
+        <tbody>
+            <tr><td>김길동</td> <td>100</td> <td>95</td> </tr>
+            <tr><td>홍길동</td> <td>86</td> <td>97</td> </tr>
+        </tbody>
+
+        <tfoot>
+            <tr><th>합</th> <th>186</th> <th>192</th> </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+</body>
+</html>

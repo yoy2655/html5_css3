@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+label img{
+    border:15px solid brown;
+    padding:5px;
+}
+label #aa{
+    padding:5px;
+}
+</style>
+</head>
+<body>
+   <!--3.	다음과 같이 액자 모양이 이미지 테두리를 만들어라. 
+    테두리 두께는 15px, 패딩은 5px로 설정해라.-->
+<h2>이미지 테두리</h2>
+<hr>
+<label><img src="C:/Users/soldesk/Desktop/A221122/리락쿠마1.jpg"></label>
+    <!--4.	다음의 웹 페이지를 작성해라.-->
+<h2>생일 파티</h2>
+<hr>
+<div>
+<label id="aa">생일 </label><input type="date" value="2020-08-16"><br>
+<label id="aa">시간 </label><input type="time"><br>
+<label id="aa">장소 </label><input type="text">
+</div>
+</body>
+</html>
+</body>
+</html>

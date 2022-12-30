@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>CSS3 실습 예제</title>
+ <style>
+    div{
+        display: inline-block;
+        width: 200px;
+        height:100px;
+    }
+.solid{
+    border:3px solid black;
+}
+.dotted{
+    border:3px dotted black;
+}
+.dashed{
+    border:3px dashed black;
+}
+</style>
+</head>
+<body>
+   <div class="solid"></div>
+   <div class="dotted"></div>
+   <div class="dashed"></div>
+</body>
+</html>
+</body>
+</html>
